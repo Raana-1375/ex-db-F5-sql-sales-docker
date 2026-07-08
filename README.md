@@ -26,3 +26,10 @@ docker exec -it mysql-sales-db mysql -u root -p
 ​```
 USE sales_db;
 ​```
+## SQL Scripts
+
+- **scripts/01_create_table_and_insert_data.sql** — Creates the `sales` table and inserts sample sales data.
+- **scripts/02_get_category_subcategory.sql** — Retrieves all food category and subcategory values.
+- **scripts/03_get_subcategory_starting_with_c.sql** — Retrieves subcategories that start with the letter "C".
+- **scripts/04_get_total_units_sold.sql** — Calculates the total number of units sold across all records.
+- **scripts/05_get_total_units_americas.sql** — Calculates the total units sold in the Americas (North America and South America combined).
